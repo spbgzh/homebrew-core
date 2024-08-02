@@ -2,8 +2,8 @@ class Freeswitch < Formula
   desc "Telephony platform to route various communication protocols"
   homepage "https://freeswitch.org"
   url "https://github.com/signalwire/freeswitch.git",
-      tag:      "v1.10.11",
-      revision: "f24064f7c9c2b939226712d3f498c17931386589"
+      tag:      "v1.10.12",
+      revision: "a88d069d6ffb74df797bcaf001f7e63181c07a09"
   license "MPL-1.1"
   head "https://github.com/signalwire/freeswitch.git", branch: "master"
 
