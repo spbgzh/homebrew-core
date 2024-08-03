@@ -11,6 +11,8 @@ class Serveit < Formula
     sha256 cellar: :any_skip_relocation, all: "e17a21fd5705de1b2e96656ad703f51c8f1781601f295ff7028cfc859bd0ca44"
   end
 
+  uses_from_macos "ruby"
+
   def install
     bin.install "serveit"
   end
