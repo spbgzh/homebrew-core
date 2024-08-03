@@ -22,8 +22,6 @@ class Prestodb < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "d0e4dad455ed75323fab0e830b2319ade02878688a678b2b7bb78650248e5533"
   end
 
-  # https://github.com/prestodb/presto/issues/17146
-  depends_on arch: :x86_64
   depends_on "openjdk@11"
   depends_on "python@3.12"
 
